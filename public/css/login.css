@@ -69,7 +69,7 @@ body{
     color: #03e9f4;
     font-size: 12px;
 }
-.Authentification-box form a{
+.Authentification-box form #join{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -83,8 +83,9 @@ body{
     letter-spacing: 4px;
     bottom: 10px;
     right: 10px;
+    background:  rgba(0, 0, 0, 0.5);;
 }
-.Authentification-box a:hover{
+.Authentification-box #join:hover{
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
